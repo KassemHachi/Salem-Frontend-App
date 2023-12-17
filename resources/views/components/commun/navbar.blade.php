@@ -1,8 +1,8 @@
 <header class="fixed w-full bg-white shadow">
     <nav class="flex items-center justify-between py-4 mx-auto lg:px-20" aria-label="Global">
         <div class="flex lg:flex-1">
-            <a href="#" class="-m-1.5 p-1.5">
-                <x-commun.logo />
+            <a href="#" class="">
+                <x-commun.logo class="h-10" />
             </a>
         </div>
         <div class="flex lg:hidden">
