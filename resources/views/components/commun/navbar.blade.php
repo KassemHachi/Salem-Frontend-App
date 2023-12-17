@@ -1,4 +1,4 @@
-<header class="fixed w-full bg-white shadow">
+<header class="fixed w-full bg-white shadow  h-[100px]">
     <nav class="flex items-center justify-between py-4 mx-auto lg:px-20" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="#" class="">
