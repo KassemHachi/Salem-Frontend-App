@@ -1,7 +1,7 @@
 @if ($active==true)
 <div class="relative float-left bg-salem-dark-blue-500  -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
     data-te-carousel-item data-te-carousel-active style="backface-visibility: hidden">
-    <x-icons.pattern class="absolute left-0 z-50" />
+    <x-icons.pattern class="absolute left-0 z-20" />
     <div class="hidden py-5 text-center text-white md:block">
         <div class="relative flex flex-col items-center justify-center">
             <img class="w-24 h-24 rounded-full" src="{{$imgsrc}}" alt="">
@@ -18,7 +18,7 @@
 @else
 <div class="relative float-left   -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
     data-te-carousel-item style="backface-visibility: hidden">
-    <x-icons.pattern class="absolute left-0 z-50" />
+    <x-icons.pattern class="absolute left-0 z-20" />
     <div class="hidden py-5 text-center text-white md:block">
         <div class="relative flex flex-col items-center justify-center">
             <img class="w-24 h-24 rounded-full" src="{{$imgsrc}}" alt="">
