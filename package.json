@@ -17,6 +17,7 @@
         "vite": "^4.5.1"
     },
     "dependencies": {
-        "@tailwindcss/line-clamp": "^0.4.4"
+        "@tailwindcss/line-clamp": "^0.4.4",
+        "tw-elements": "^1.1.0"
     }
 }
