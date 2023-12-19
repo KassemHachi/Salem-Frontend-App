@@ -2,7 +2,7 @@
     <nav class="flex items-center justify-between w-full py-4 mx-auto lg:px-20" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="#" class="">
-                <x-commun.logo class="h-10" />
+                <x-commun.logo class="h-10 fill-salem-yellow-500" />
             </a>
         </div>
         <div class="flex lg:hidden">
