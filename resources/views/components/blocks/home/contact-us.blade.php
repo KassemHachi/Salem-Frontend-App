@@ -1,8 +1,11 @@
 <section id="contact-us" class=" px-20 bg-[#fbf7f3]">
-    <div class="relative gap-3 mx-auto lg:grid lg:grid-cols-5">
+    <div class="relative gap-8 mx-auto lg:grid lg:grid-cols-5">
         <div class="py-16 lg:col-span-2 lg:py-24 ">
-            <div class="max-w-lg mx-auto">
-                <h2 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+            <div class="max-w-lg">
+                <span class="px-4 py-0 -mr-1 text-sm text-white rounded-full bg-salem-dark-blue-500">
+                    تواصل معنا
+                </span>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 lg:text-4xl">
                     تواصل معنا بطريقة سهلة
                 </h2>
                 <p class="mt-3 text-lg leading-6 text-gray-500">
