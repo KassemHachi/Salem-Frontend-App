@@ -1,4 +1,4 @@
-<section id="voting-program" class="relative w-full h-[550px]">
+<section id="voting-program" class="relative w-full h-full lg:h-[550px]">
     <div class="absolute">
         <div class="h-[8.5rem] reltive">
             <svg class="absolute top-0 h-40 -right-10" width="174" height="475" viewBox="0 0 174 475" fill="none"
@@ -14,36 +14,36 @@
         <h1 class="text-4xl font-semibold text-start text-salem-dark-blue-500">
             البرنامج الإنتخابي </h1>
 
-        <div class="grid grid-cols-3 mt-20 gap-y-16 gap-x-6">
+        <div class="grid grid-cols-1 mt-20 lg:grid-cols-3 gap-y-16 gap-x-6 mb-[4rem]">
 
             <x-commun.voting-program-card title="تطوير"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
-                <x-icons.status-up class="w-[3.75rem] h-[3.75rem]" />
+                <x-icons.status-up class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
             <x-commun.voting-program-card title="تعزيز التواصل و التعاون"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
-                <x-icons.status-up class="w-[3.75rem] h-[3.75rem]" />
+                <x-icons.presentation-chart class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
             <x-commun.voting-program-card title="تطوير"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
-                <x-icons.status-up class="w-[3.75rem] h-[3.75rem]" />
+                <x-icons.status-up class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
             <x-commun.voting-program-card title="تعزيز روح ريادة الأعمال"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
-                <x-icons.status-up class="w-[3.75rem] h-[3.75rem]" />
+                <x-icons.presentation-chart class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
             <x-commun.voting-program-card title="تطوير"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
-                <x-icons.status-up class="w-[3.75rem] h-[3.75rem]" />
+                <x-icons.status-up class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
             <x-commun.voting-program-card title="تعزيز التجارة بالمدينة المنورة"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
-                <x-icons.status-up class="w-[3.75rem] h-[3.75rem]" />
+                <x-icons.presentation-chart class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
 
