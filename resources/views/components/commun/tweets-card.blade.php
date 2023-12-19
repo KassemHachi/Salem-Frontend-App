@@ -1,5 +1,5 @@
 <div
-    class="relative col-span-1 overflow-hidden rounded-lg shadow-2xl cursor-pointer group shadow-salem-yellow-100 h-96">
+    class="relative col-span-1 overflow-hidden border rounded-lg shadow-2xl cursor-pointer border-slate-600/20 group shadow-salem-yellow-100 h-96">
     <x-icons.x-twitter class="absolute z-10 left-4 top-4" />
     <div
         class="absolute z-20 w-full h-full transition-all duration-150 ease-linear opacity-0 bg-salem-yellow-500 group-hover:opacity-95">
