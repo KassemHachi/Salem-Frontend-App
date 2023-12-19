@@ -1,5 +1,5 @@
-<section id="salem-for-humanity" class="relative h-screen px-20 overflow-hidden">
-    <div class="w-1/2 h-full pt-20 ">
+<section id="salem-for-humanity" class="relative px-5 overflow-hidden lg:px-20 lg:h-screen">
+    <div class="w-full h-full py-16 lg:pt-20 lg:w-1/2 ">
         <h1 class="text-5xl font-semibold text-white text-start">
             سالم للإنسانية</h1>
         <h2 class="mt-2 text-[1.75rem] font-semibold text-white">
@@ -14,7 +14,8 @@
             المزيد
         </a>
     </div>
-    <img src="{{Vite::asset('resources/images/salem-for-humanity-image.jpg')}}" class="absolute inset-0 z-[-2]" alt="">
+    <img src="{{Vite::asset('resources/images/salem-for-humanity-image.jpg')}}"
+        class="absolute h-full w-full object-cover inset-0 z-[-2]" alt="">
     <div
         class="absolute inset-0 z-[-1] bg-gradient-to-t from-salem-yellow-500/70 via-salem-yellow-500/0 to-salem-yellow-500/0">
     </div>
