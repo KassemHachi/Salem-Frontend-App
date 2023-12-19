@@ -17,31 +17,31 @@
                     <div class="col-span-1">
                         <label for="email" class="leading-8">البريد الإلكتروني</label>
                         <input type="email" name="email" id="email" autocomplete="email"
-                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
                             placeholder="salem@mail.com">
                     </div>
                     <div class="col-span-1">
                         <label for="full-name" class="leading-8">الإسم الكامل</label>
                         <input type="text" name="full-name" id="full-name" autocomplete="name"
-                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
                             placeholder="Salem Ajemi">
                     </div>
                     <div class="col-span-1">
                         <label for="company" class="leading-8">مؤسسة (اختياري)</label>
                         <input id="company" name="company" type="text" autocomplete="company"
-                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
                             placeholder="yourcompany.com">
                     </div>
                     <div class="col-span-1">
                         <label for="phone" class="leading-8">رقم الهاتف</label>
                         <input type="text" name="phone" id="phone" autocomplete="tel"
-                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
-                            placeholder="+966 123 456 789">
+                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
+                            placeholder="+966123456789">
                     </div>
                     <div class="col-span-2">
                         <label for="message" class="leading-8">الرسالة</label>
                         <textarea id="message" name="message" rows="4"
-                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+                            class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
                             placeholder=""></textarea>
                     </div>
                     <div>
