@@ -1,4 +1,4 @@
-<section id="testimonies" class="h-screen">
+<section id="testimonies" class="py-20 bg-[#fbf7f3]">
     <div class="relative w-full ">
         <x-ui.carousel.container>
             <div
