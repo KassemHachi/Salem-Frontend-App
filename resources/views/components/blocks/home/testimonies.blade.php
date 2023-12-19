@@ -1,4 +1,7 @@
 <section id="testimonies" class="py-20 bg-[#fbf7f3]">
+    <h1 class="my-20 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 ">
+        ماذا قالو عن سالم
+    </h1>
     <div class="relative w-full ">
         <x-ui.carousel.container>
             <div
