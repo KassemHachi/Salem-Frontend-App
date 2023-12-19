@@ -4,7 +4,7 @@
 
 @section('body')
 <x-commun.navbar :activepage="ItemsNavEnum::HOME" />
-<div class="pt-20"></div>
+<div class="pt-24 lg:pt-20"></div>
 
 <x-blocks.home.hero />
 
