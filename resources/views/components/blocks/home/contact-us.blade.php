@@ -1,7 +1,7 @@
-<section id="contact-us" class=" px-20 bg-[#fbf7f3]">
+<section id="contact-us" class="px-10 lg:px-20 bg-[#fbf7f3]">
     <div class="relative gap-8 mx-auto lg:grid lg:grid-cols-5">
         <div class="py-16 lg:col-span-2 lg:py-24 ">
-            <div class="max-w-lg">
+            <div class="max-w-lg mx-auto lg:ms-0">
                 <span class="px-4 py-0 -mr-1 text-sm text-white rounded-full bg-salem-dark-blue-500">
                     تواصل معنا
                 </span>
@@ -49,7 +49,7 @@
                     </div>
                     <div>
                         <button type="submit"
-                            class="flex items-center gap-2 px-3 py-2 text-sm font-semibold leading-6 text-white transition-all duration-150 ease-linear border-2 rounded-lg group bg-salem-dark-blue-500 ">
+                            class="flex items-center gap-2 px-3 py-2 text-sm font-semibold leading-6 text-white transition-all duration-150 ease-linear border-2 rounded-lg group bg-salem-dark-blue-500 hover:bg-salem-yellow-500 ">
                             إرسال
                         </button>
                     </div>
