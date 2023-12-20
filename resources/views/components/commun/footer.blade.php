@@ -1,17 +1,21 @@
-<footer class="relative z-0 px-20 py-10 overflow-hidden bg-salem-dark-blue-500">
+<footer class="relative z-0 px-20 py-20 overflow-hidden bg-salem-dark-blue-500">
     <div class="flex flex-col gap-y-10 gap-x-20 lg:flex-row pt-28">
         <div class="w-full">
-            <x-commun.logo class="h-20 mb-2 fill-white" />
-            <p class="font-normal text-white">
+            <x-commun.logo class="h-20 mb-2 fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="0"
+                data-aos-duration="500" />
+            <p class="font-normal text-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                data-aos-duration="650">
                 رجل الاعمال / الاستاذ سالم بن علي بن بغيّه العجمي من مواليد مدينة نجران عام 1972 م بالمملكة العربية
                 السعودية
             </p>
         </div>
         <div class="flex flex-col justify-between w-full gap-4">
-            <h3 class="text-lg font-medium text-white">
+            <h3 class="text-lg font-medium text-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="0"
+                data-aos-duration="300">
                 روابط سريعة
             </h3>
-            <ul class="grid grid-cols-2 gap-2 text-white lg:grid-cols-4 lg:gap-3">
+            <ul class="grid grid-cols-2 gap-2 text-white lg:grid-cols-4 lg:gap-3" data-aos="fade-up"
+                data-aos-once="true" data-aos-delay="10" data-aos-duration="500">
                 <a href="#">
                     <li>الرئيسية</li>
                 </a>
@@ -53,21 +57,30 @@
     <hr class="my-10 border-white/40">
     <div class="flex flex-col justify-between gap-y-10 lg:flex-row">
         <div class="flex items-center gap-5 ">
-            <h1 class="text-white">حقوق التأليف والنشر © 2024 سالم العجمي - جميع الحقوق محفوظة | تصميم و تطوير</h1>
-            <x-commun.soitc-logo class="pb-1" />
+            <p class="text-white animate-fade-in-up"
+                style="animation-duration: 600ms;animation-delay: 100ms;animation-timing-function: ease-out">
+                حقوق التأليف والنشر © 2024 سالم العجمي - جميع الحقوق محفوظة | تصميم و تطوير
+            </p>
+
+            <x-commun.soitc-logo class="pb-1 " data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                data-aos-duration="500" />
         </div>
         <div class="flex gap-8">
             <a href="#instagram">
-                <x-icons.instagram class="fill-white" />
+                <x-icons.instagram class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                    data-aos-duration="500" />
             </a>
             <a href="#facebook">
-                <x-icons.facebook class="fill-white" />
+                <x-icons.facebook class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                    data-aos-duration="500" />
             </a>
             <a href="#twitter">
-                <x-icons.twitter class="fill-white" />
+                <x-icons.twitter class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                    data-aos-duration="500" />
             </a>
             <a href="#youtube">
-                <x-icons.youtube class="fill-white" />
+                <x-icons.youtube class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                    data-aos-duration="500" />
             </a>
         </div>
     </div>

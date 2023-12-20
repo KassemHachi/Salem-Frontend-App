@@ -1,4 +1,4 @@
-<div
+<div {{$attributes}} data-aos="zoom-in" data-aos-once="true" data-aos-delay="20" data-aos-duration="500"
     class="relative z-0 flex items-end justify-start w-full col-span-1 overflow-hidden bg-center bg-cover rounded-md group md:first:col-span-2 h-96">
     <div class="z-[1] w-4/5 ps-6 pb-6 group-hover:hidden transition-all duration-300 ease-in-out">
         <div class="flex items-center gap-2">

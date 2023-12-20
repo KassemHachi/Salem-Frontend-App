@@ -28,7 +28,8 @@
             </div>
         </div>
 
-        <h1 class="mt-5 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 ">
+        <h1 class="mt-5 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
+            data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
             المركز الإعلامي
         </h1>
 

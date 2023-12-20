@@ -1,11 +1,14 @@
 <section id="salem-for-humanity" class="relative px-5 overflow-hidden lg:px-20 lg:h-screen">
     <div class="w-full h-full py-16 lg:pt-20 lg:w-1/2 ">
-        <h1 class="text-5xl font-semibold text-white text-start">
+        <h1 class="text-5xl font-semibold text-white text-start" data-aos-once="true" data-aos="fade-up"
+            data-aos-delay="0" data-aos-duration="500">
             سالم للإنسانية</h1>
-        <h2 class="mt-2 text-[1.75rem] font-semibold text-white">
+        <h2 class="mt-2 text-[1.75rem] font-semibold text-white" data-aos-once="true" data-aos="fade-up"
+            data-aos-delay="10" data-aos-duration="600">
             العنوان
         </h2>
-        <p class="mt-2 text-2xl font-medium text-white">
+        <p class="mt-2 text-2xl font-medium text-white" data-aos-once="true" data-aos="fade-up" data-aos-delay="10"
+            data-aos-duration="700">
             رجل الاعمال الاستاذ / سالم العجمي العديد من المساهمات المجتمعية و الانسانية من خلال دعمه المستمر للمناشط
             المجتمعية و للجمعيات الخيرية و قضايا الصلح و التسامح و غيرها من انشطة البر و الاحسان.
         </p>

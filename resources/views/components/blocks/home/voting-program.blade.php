@@ -11,37 +11,44 @@
         <x-icons.palatte-element class="h-80 w-fit" />
     </div>
     <div class="w-full z-[1] pt-20 px-20">
-        <h1 class="text-4xl font-semibold text-start text-salem-dark-blue-500">
+        <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500"
+            class="text-4xl font-semibold text-start text-salem-dark-blue-500">
             البرنامج الإنتخابي </h1>
 
         <div class="grid grid-cols-1 mt-20 lg:grid-cols-3 gap-y-16 gap-x-6 mb-[4rem]">
 
-            <x-commun.voting-program-card title="تطوير"
+            <x-commun.voting-program-card data-aos="fade-up" data-aos-once="true" data-aos-delay="0"
+                data-aos-duration="500" title="تطوير"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
                 <x-icons.status-up class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
-            <x-commun.voting-program-card title="تعزيز التواصل و التعاون"
+            <x-commun.voting-program-card data-aos="fade-up" data-aos-once="true" data-aos-delay="40"
+                data-aos-duration="500" title="تعزيز التواصل و التعاون"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
                 <x-icons.presentation-chart class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
-            <x-commun.voting-program-card title="تطوير"
+            <x-commun.voting-program-card data-aos="fade-up" data-aos-once="true" data-aos-delay="80"
+                data-aos-duration="500" title="تطوير"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
                 <x-icons.status-up class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
-            <x-commun.voting-program-card title="تعزيز روح ريادة الأعمال"
+            <x-commun.voting-program-card data-aos="fade-up" data-aos-once="true" data-aos-delay="120"
+                data-aos-duration="500" title="تعزيز روح ريادة الأعمال"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
                 <x-icons.presentation-chart class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
-            <x-commun.voting-program-card title="تطوير"
+            <x-commun.voting-program-card data-aos="fade-up" data-aos-once="true" data-aos-delay="160"
+                data-aos-duration="500" title="تطوير"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
                 <x-icons.status-up class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>
 
-            <x-commun.voting-program-card title="تعزيز التجارة بالمدينة المنورة"
+            <x-commun.voting-program-card data-aos="fade-up" data-aos-once="true" data-aos-delay="200"
+                data-aos-duration="500" title="تعزيز التجارة بالمدينة المنورة"
                 description="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى">
                 <x-icons.presentation-chart class="stroke-salem-dark-blue-500 w-[3.75rem] h-[3.75rem]" />
             </x-commun.voting-program-card>

@@ -2,13 +2,16 @@
     <div class="relative gap-8 mx-auto lg:grid lg:grid-cols-5">
         <div class="py-16 lg:col-span-2 lg:py-24 ">
             <div class="max-w-lg mx-auto lg:ms-0">
-                <span class="px-4 py-0 -mr-1 text-sm text-white rounded-full bg-salem-dark-blue-500">
+                <span class="px-4 py-0 -mr-1 text-sm text-white rounded-full bg-salem-dark-blue-500"
+                    data-aos="fade-left" data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
                     تواصل معنا
                 </span>
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 lg:text-4xl">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 lg:text-4xl" data-aos="fade-up"
+                    data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
                     تواصل معنا بطريقة سهلة
                 </h2>
-                <p class="mt-3 text-lg leading-6 text-gray-500">
+                <p class="mt-3 text-lg leading-6 text-gray-500" data-aos="fade-up" data-aos-once="true"
+                    data-aos-delay="10" data-aos-duration="700">
                     قم بالتواصل معنا بطريقة سهلة بادخال معلوماتك و كتابة رسالتك. وراح نريد عليك قريبا..
                 </p>
 
@@ -16,7 +19,8 @@
         </div>
         <div class="px-6 py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
             <div class="max-w-lg mx-auto lg:max-w-none">
-                <form action="#" method="POST" class="grid grid-cols-2 gap-x-2 gap-y-6">
+                <form action="#" method="POST" class="grid grid-cols-2 gap-x-2 gap-y-6" data-aos="fade-up"
+                    data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
                     <div class="col-span-1">
                         <label for="email" class="leading-8">البريد الإلكتروني</label>
                         <input type="email" name="email" id="email" autocomplete="email"

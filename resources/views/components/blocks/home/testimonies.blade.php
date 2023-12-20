@@ -1,5 +1,6 @@
 <section id="testimonies" class="py-20 bg-[#fbf7f3]">
-    <h1 class="my-20 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 ">
+    <h1 class="my-20 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
+        data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
         ماذا قالو عن سالم
     </h1>
     <div class="relative w-full ">

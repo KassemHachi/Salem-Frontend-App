@@ -1,4 +1,4 @@
-<div
+<div data-aos="zoom-in" data-aos-once="true" data-aos-delay="20" data-aos-duration="500"
     class="relative z-0 flex items-end justify-start w-full col-span-1 overflow-hidden bg-center bg-cover rounded-md group first:col-span-2 h-[28rem]">
     <div class="z-[1] w-3/4 ps-6 pb-6 group-hover:hidden transition-all duration-300 ease-in-out">
         <h3 class="my-2 px-3 py-1.5 rounded-lg text-sm text-white w-fit bg-white/40">فيديو</h3>

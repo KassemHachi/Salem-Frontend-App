@@ -1,4 +1,4 @@
-<div class="flex items-center col-span-1 gap-3">
+<div {{$attributes->class(["flex items-center col-span-1 gap-3"])}} >
     <div class="">
         {{$slot}}
     </div>
