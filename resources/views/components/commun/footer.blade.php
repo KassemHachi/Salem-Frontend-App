@@ -62,25 +62,27 @@
                 حقوق التأليف والنشر © 2024 سالم العجمي - جميع الحقوق محفوظة | تصميم و تطوير
             </p>
 
-            <x-commun.soitc-logo class="pb-1 " data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
-                data-aos-duration="500" />
+            <a href="#">
+                <x-commun.soitc-logo class="pb-1 " data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+                    data-aos-duration="500" />
+            </a>
         </div>
         <div class="flex gap-8">
             <a href="#instagram">
-                <x-icons.instagram class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
-                    data-aos-duration="500" />
+                <x-icons.instagram class="transition-all duration-200 ease-out fill-white hover:fill-salem-yellow-500"
+                    data-aos="fade-up" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" />
             </a>
             <a href="#facebook">
-                <x-icons.facebook class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
-                    data-aos-duration="500" />
+                <x-icons.facebook class="transition-all duration-200 ease-out fill-white hover:fill-salem-yellow-500"
+                    data-aos="fade-up" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" />
             </a>
             <a href="#twitter">
-                <x-icons.twitter class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
-                    data-aos-duration="500" />
+                <x-icons.twitter class="transition-all duration-200 ease-out fill-white hover:fill-salem-yellow-500"
+                    data-aos="fade-up" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" />
             </a>
             <a href="#youtube">
-                <x-icons.youtube class="fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
-                    data-aos-duration="500" />
+                <x-icons.youtube class="transition-all duration-200 ease-out fill-white hover:fill-salem-yellow-500"
+                    data-aos="fade-up" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" />
             </a>
         </div>
     </div>
