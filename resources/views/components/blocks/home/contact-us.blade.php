@@ -17,7 +17,7 @@
 
             </div>
         </div>
-        <div class="px-6 py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
+        <div class="py-16 lg:col-span-3 lg:px-8 lg:py-24 xl:pl-12">
             <div class="max-w-lg mx-auto lg:max-w-none">
                 <form action="#" method="POST" class="grid grid-cols-2 gap-x-2 gap-y-6" data-aos="fade-up"
                     data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
