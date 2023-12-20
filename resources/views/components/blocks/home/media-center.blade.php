@@ -1,5 +1,5 @@
 <section id="media-center" class="py-20">
-    <div class="grid px-20 mb-10 md:grid-cols-1 lg:grid-cols-3">
+    <div class="grid px-10 mb-10 lg:px-20 md:grid-cols-1 lg:grid-cols-3">
         <div class="col-span-1">
             <div class="flex justify-between w-full gap-2 lg:justify-start lg:w-fit">
                 <a href="#"
@@ -42,7 +42,7 @@
         </div>
 
     </div>
-    <div class="grid grid-cols-1 gap-10 px-20 md:grid-cols-2 lg:grid-cols-3 ">
+    <div class="grid grid-cols-1 gap-5 px-10 lg:gap-10 lg:px-20 md:grid-cols-2 lg:grid-cols-3 ">
         <x-commun.media-center-card />
         <x-commun.media-center-card />
         <x-commun.media-center-card />
