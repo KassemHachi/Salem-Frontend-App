@@ -1,5 +1,5 @@
 <section id="tweets" class="p-10 lg:p-20 bg-[#fbf7f3]">
-    <h1 class="my-20 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
+    <h1 class="my-20 text-[45px] font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
         data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
         آخر التغريدات
     </h1>

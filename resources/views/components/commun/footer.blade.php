@@ -3,7 +3,7 @@
         <div class="w-full">
             <x-commun.logo class="h-20 mb-2 fill-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="0"
                 data-aos-duration="500" />
-            <p class="font-normal text-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
+            <p class="text-xl font-normal text-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
                 data-aos-duration="650">
                 رجل الاعمال / الاستاذ سالم بن علي بن بغيّه العجمي من مواليد مدينة نجران عام 1972 م بالمملكة العربية
                 السعودية
@@ -17,28 +17,28 @@
             <ul class="grid grid-cols-2 gap-2 text-white lg:grid-cols-4 lg:gap-3" data-aos="fade-up"
                 data-aos-once="true" data-aos-delay="10" data-aos-duration="500">
                 <a href="#">
-                    <li>الرئيسية</li>
+                    <li class="text-base">الرئيسية</li>
                 </a>
                 <a href="#">
-                    <li>سالم عن قرب</li>
+                    <li class="text-base">سالم عن قرب</li>
                 </a>
                 <a href="#">
-                    <li>الأعمال والإنجازات</li>
+                    <li class="text-base">الأعمال والإنجازات</li>
                 </a>
                 <a href="#">
-                    <li>البرنامج الإنتخابي</li>
+                    <li class="text-base">البرنامج الإنتخابي</li>
                 </a>
                 <a href="#">
                     <li>تواصل معنا</li>
                 </a>
                 <a href="">
-                    <li>سياسية الخصوصية</li>
+                    <li class="text-base">سياسية الخصوصية</li>
                 </a>
                 <a href="#">
-                    <li>الأسئلة الشائعة</li>
+                    <li class="text-base">الأسئلة الشائعة</li>
                 </a>
                 <a href="#">
-                    <li>الدعم الفني</li>
+                    <li class="text-base">الدعم الفني</li>
                 </a>
 
 
@@ -57,7 +57,7 @@
     <hr class="my-10 border-white/40">
     <div class="flex flex-col justify-between gap-y-10 lg:flex-row">
         <div class="flex items-center gap-5 ">
-            <p class="text-white animate-fade-in-up"
+            <p class="text-base font-medium text-white animate-fade-in-up"
                 style="animation-duration: 600ms;animation-delay: 100ms;animation-timing-function: ease-out">
                 حقوق التأليف والنشر © 2024 سالم العجمي - جميع الحقوق محفوظة | تصميم و تطوير
             </p>

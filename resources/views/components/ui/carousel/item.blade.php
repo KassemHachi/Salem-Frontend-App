@@ -6,7 +6,7 @@
         <div class="relative flex flex-col items-center justify-center">
             <img class="w-24 h-24 rounded-full" src="{{$imgsrc}}" alt="">
             <x-icons.quote class="absolute top-20" />
-            <p class="px-16 mt-10 text-lg text-center text-white lg:px-28 line-clamp-2">
+            <p class="px-16 mt-10 text-[25px] font-normal text-center text-white lg:px-28 line-clamp-2">
                 “
                 {{$description}}
                 ”
@@ -23,7 +23,7 @@
         <div class="relative flex flex-col items-center justify-center">
             <img class="w-24 h-24 rounded-full" src="{{$imgsrc}}" alt="">
             <x-icons.quote class="absolute top-20" />
-            <p class="px-16 mt-10 text-lg text-center text-white lg:px-28 line-clamp-2">
+            <p class="px-16 mt-10 text-[25px] font-normal text-center text-white lg:px-28 line-clamp-2">
                 “
                 {{$description}}
                 ”

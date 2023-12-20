@@ -3,10 +3,10 @@
     <div class="z-[1] w-4/5 ps-6 pb-6 group-hover:hidden transition-all duration-300 ease-in-out">
         <div class="flex items-center gap-2">
             <x-icons.calendar class="w-4 h-4 stroke-white" />
-            <h3 class="text-sm text-white ">06 سبتمبر 2023</h3>
+            <h3 class="text-base text-white ">06 سبتمبر 2023</h3>
         </div>
-        <h1 class="text-2xl font-semibold text-white truncate">في اطار تعزيز التواصل و التعاون</h1>
-        <p class="w-full text-base text-white truncate">زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
+        <h1 class="text-4xl font-semibold text-white truncate">في اطار تعزيز التواصل و التعاون</h1>
+        <p class="w-full text-xl text-white truncate">زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
             العامة
             للعقار
             من اجل تعزيز</p>
@@ -25,7 +25,7 @@
     </a>
 
     <a href="#"
-        class="absolute top-[48%] start-[45%] z-10 opacity-0  px-3 py-2 text-sm font-medium transition-all duration-300 ease-linear bg-white rounded-lg cursor-pointer group-hover:opacity-100  w-fit text-salem-dark-blue-500">
+        class="absolute top-[48%] start-[40%] z-10 opacity-0  px-3 py-2 text-lg font-medium transition-all duration-300 ease-linear bg-white rounded-lg cursor-pointer group-hover:opacity-100  w-fit text-salem-dark-blue-500">
         إقرأ المزيد
     </a>
 </div>

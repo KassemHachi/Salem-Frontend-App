@@ -170,7 +170,7 @@
             @foreach ($itemsNav as $item)
 
             <a href="{{$item['url']}}"
-                class="text-sm font-semibold leading-6 hover:text-salem-yellow-500 transition-all duration-150 ease-linear {{$item['name'] == $activePage ? 'text-salem-yellow-500': 'text-salem-dark-blue-500'}}">{{$item["title"]}}</a>
+                class="text-lg  leading-6 hover:text-salem-yellow-500 transition-all duration-150 ease-linear {{$item['name'] == $activePage ? 'text-salem-yellow-500 font-bold ': 'text-salem-dark-blue-500 font-normal'}}">{{$item["title"]}}</a>
             @endforeach
 
             {{--
@@ -225,7 +225,7 @@
         </div>
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#"
-                class="flex items-center gap-2 px-3 py-2 text-sm font-semibold leading-6 transition-all duration-150 ease-linear border-2 rounded-lg group hover:bg-salem-dark-blue-500 hover:text-white border-salem-dark-blue-500 text-salem-dark-blue-500">
+                class="flex items-center gap-2 px-3 py-2 text-lg font-semibold leading-6 transition-all duration-150 ease-linear border-2 rounded-lg group hover:bg-salem-dark-blue-500 hover:text-white border-salem-dark-blue-500 text-salem-dark-blue-500">
                 لتصويت الغرفة التجارية
                 <x-icons.arrow-left class="fill-salem-dark-blue-500 group-hover:fill-white" />
             </a>
