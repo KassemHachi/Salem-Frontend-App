@@ -1,12 +1,13 @@
-<header class="fixed w-full bg-white shadow  h-[100px] z-50 flex">
-    <nav class="flex items-center justify-between w-full py-4 mx-auto lg:px-20" aria-label="Global">
+<header class="fixed w-full bg-white shadow  h-[100px] z-50 flex" x-cloak x-data="{menudropdown:false}">
+    <nav class="relative flex items-center justify-between w-full px-10 py-4 mx-auto lg:px-20" aria-label="Global">
         <div class="flex lg:flex-1">
             <a href="#" class="">
                 <x-commun.logo class="h-10 fill-salem-yellow-500" />
             </a>
         </div>
         <div class="flex lg:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <button @click="menudropdown = !menudropdown" type="button"
+                class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                     aria-hidden="true">
@@ -14,6 +15,32 @@
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </button>
+            <div x-show="menudropdown"
+                class="absolute flex items-start justify-between  inset-0 px-10 py-6 w-[100vw] h-screen bg-white">
+
+                <div class="">
+                    <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+
+                    @foreach ($itemsNav as $item)
+                    <a href="{{$item['url']}}"
+                        class="block py-2 pl-3 pr-4 text-base font-medium  {{$item['name'] == $activePage ? 'text-salem-yellow-500': 'text-salem-dark-blue-500'}} ">
+                        {{$item["title"]}}
+                    </a>
+                    @endforeach
+                    <a href="#"
+                        class="flex items-center gap-2 px-3 py-2 text-sm font-semibold leading-6 transition-all duration-150 ease-linear border-2 rounded-lg w-fit group hover:bg-salem-dark-blue-500 hover:text-white border-salem-dark-blue-500 text-salem-dark-blue-500">
+                        لتصويت الغرفة التجارية
+                        <x-icons.arrow-left class="fill-salem-dark-blue-500 group-hover:fill-white" />
+                    </a>
+                </div>
+                <button class="p-3" @click="menudropdown=false">
+                    <svg class="w-6 h-6 " fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+
+            </div>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
             {{-- <div x-data="{dropMenu:false}" class="relative">
