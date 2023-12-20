@@ -2,24 +2,28 @@
     <div id="heroSlider" class="relative w-full" data-te-carousel-init data-te-ride="carousel">
         <!--Carousel indicators-->
         <style>
-            #hero-slide button[data-te-carousel-active] {
+            #indicators-hero button[data-te-carousel-active] {
                 background-color: rgb(193 166 97)
             }
         </style>
-        <div id="hero-slide"
-            class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-            data-te-carousel-indicators>
-            <button type="button" data-te-target="#heroSlider" data-te-slide-to="2"
-                class="mx-[3px]  w-3 h-3 rounded-full  cursor-pointer border-0 order-solid bg-white/80 active:bg-salem-yellow-500 bg-clip-padding p-0 -indent-[999px]  transition-colors duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                aria-label="Slide 3"></button>
+        <div class="absolute flex flex-col items-center gap-5  bottom-2 z-[2] start-[calc(50%-18px)] ">
+            <div id="indicators-hero" class="flex justify-center gap-3 p-0 list-none " data-te-carousel-indicators>
+                <button type="button" data-te-target="#heroSlider" data-te-slide-to="2"
+                    class="  w-2.5 h-2.5 rounded-full  cursor-pointer border-0 order-solid bg-white/80 active:bg-salem-yellow-500 bg-clip-padding p-0 -indent-[999px]  transition-colors duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 3"></button>
 
-            <button type="button" data-te-target="#heroSlider" data-te-slide-to="1"
-                class="mx-[3px]  w-3 h-3 rounded-full  cursor-pointer border-0 order-solid bg-white/80 active:bg-salem-yellow-500 bg-clip-padding p-0 -indent-[999px]  transition-colors duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                aria-label="Slide 2"></button>
-            <button type="button" data-te-target="#heroSlider" data-te-slide-to="0" data-te-carousel-active
-                class="mx-[3px]  w-3 h-3 rounded-full  cursor-pointer border-0 order-solid bg-white/80 active:bg-salem-yellow-500 bg-clip-padding p-0 -indent-[999px]  transition-colors duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-te-target="#heroSlider" data-te-slide-to="1"
+                    class="  w-2.5 h-2.5 rounded-full  cursor-pointer border-0 order-solid bg-white/80 active:bg-salem-yellow-500 bg-clip-padding p-0 -indent-[999px]  transition-colors duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-te-target="#heroSlider" data-te-slide-to="0" data-te-carousel-active
+                    class="  w-2.5 h-2.5 rounded-full  cursor-pointer border-0 order-solid bg-white/80 active:bg-salem-yellow-500 bg-clip-padding p-0 -indent-[999px]  transition-colors duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                    aria-current="true" aria-label="Slide 1"></button>
+            </div>
+
+            <x-icons.chevron-down class="w-8 h-8 stroke-white animate-bounce me-0.5" />
         </div>
+
+
 
         <!--Carousel items-->
         <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
