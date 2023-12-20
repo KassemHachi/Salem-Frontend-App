@@ -56,12 +56,20 @@
     </div>
     <hr class="my-10 border-white/40">
     <div class="flex flex-col justify-between gap-y-10 lg:flex-row">
-        <div class="flex items-center gap-5 ">
-            <p class="text-base font-medium text-white animate-fade-in-up"
+        <div class="flex flex-col items-center lg:gap-5 lg:flex-row ">
+            <p class="hidden text-base font-medium text-white lg:inline-block animate-fade-in-up"
                 style="animation-duration: 600ms;animation-delay: 100ms;animation-timing-function: ease-out">
                 حقوق التأليف والنشر © 2024 سالم العجمي - جميع الحقوق محفوظة | تصميم و تطوير
             </p>
+            <p class="text-base font-medium text-center text-white lg:hidden animate-fade-in-up"
+                style="animation-duration: 600ms;animation-delay: 100ms;animation-timing-function: ease-out">
+                حقوق التأليف والنشر © 2024 سالم العجمي - جميع الحقوق محفوظة
+                <br><br>
+                تصميم و تطوير
 
+
+
+            </p>
             <a href="#">
                 <x-commun.soitc-logo class="pb-1 " data-aos="fade-up" data-aos-once="true" data-aos-delay="10"
                     data-aos-duration="500" />

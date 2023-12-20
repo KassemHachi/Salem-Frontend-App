@@ -34,12 +34,12 @@
                 <img src="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}" class="object-cover w-full h-full"
                     alt="سالم بن علي بن بغيّه العجمي" />
                 <div
-                    class="absolute w-3/4 lg:w-1/2 inset-x-5 lg:inset-x-[5rem] bottom-[15%]  lg:bottom-[20%]  py-5 text-center text-white md:block">
+                    class=" absolute w-3/4 lg:w-1/2 inset-x-5 lg:inset-x-[5rem] bottom-[15%]  lg:bottom-[20%]  py-5 text-center text-white md:block">
                     <h1 class="text-[3.125rem] font-semibold text-start text-salem-yellow-500" data-aos="fade-up"
                         data-aos-delay="0" data-aos-duration="500">
                         سالم بن علي بن بغيّه العجمي
                     </h1>
-                    <p class="mt-10  text-[1.25rem] text-white text-start line-clamp-2 " data-aos="fade-up"
+                    <p class="lg:mt-10  text-[1.25rem] text-white text-start line-clamp-2 " data-aos="fade-up"
                         data-aos-delay="10" data-aos-duration="700">
                         رجل الاعمال / الاستاذ سالم بن علي بن بغيّه العجمي من مواليد مدينة نجران عام 1972 م
                         بالمملكة العربية السعودية، نشأ وترعرع في قبيلة يام اذ يعد الابن الخامس علي بن سعيد
@@ -64,7 +64,7 @@
                         data-aos-delay="0" data-aos-duration="500">
                         سالم بن علي بن بغيّه العجمي
                     </h1>
-                    <p class="mt-10  text-[1.25rem] text-white text-start line-clamp-2 " data-aos="fade-up"
+                    <p class="lg:mt-10 text-[1.25rem] text-white text-start line-clamp-2 " data-aos="fade-up"
                         data-aos-delay="10" data-aos-duration="700">
                         رجل الاعمال / الاستاذ سالم بن علي بن بغيّه العجمي من مواليد مدينة نجران عام 1972 م
                         بالمملكة العربية السعودية، نشأ وترعرع في قبيلة يام اذ يعد الابن الخامس علي بن سعيد
@@ -85,11 +85,11 @@
                     alt="سالم بن علي بن بغيّه العجمي" />
                 <div
                     class="absolute w-3/4 lg:w-1/2 inset-x-5 lg:inset-x-[5rem] bottom-[15%]  lg:bottom-[20%]  py-5 text-center text-white md:block">
-                    <h1 class="text-[3.125rem] font-semibold text-start text-salem-yellow-500" data-aos="fade-up"
+                    <h1 class=" text-[3.125rem] font-semibold text-start text-salem-yellow-500" data-aos="fade-up"
                         data-aos-delay="0" data-aos-duration="500">
                         سالم بن علي بن بغيّه العجمي
                     </h1>
-                    <p class="mt-10 text-[1.25rem] text-white text-start line-clamp-2 " data-aos="fade-up"
+                    <p class=" lg:mt-10 text-[1.25rem] text-white text-start line-clamp-2 " data-aos="fade-up"
                         data-aos-delay="10" data-aos-duration="700">
                         رجل الاعمال / الاستاذ سالم بن علي بن بغيّه العجمي من مواليد مدينة نجران عام 1972 م
                         بالمملكة العربية السعودية، نشأ وترعرع في قبيلة يام اذ يعد الابن الخامس علي بن سعيد
