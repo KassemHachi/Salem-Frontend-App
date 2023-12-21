@@ -234,3 +234,4 @@
     </nav>
 
 </header>
+<div class="pt-24 lg:pt-20"></div>
