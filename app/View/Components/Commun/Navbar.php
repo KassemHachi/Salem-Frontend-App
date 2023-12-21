@@ -31,7 +31,7 @@ class Navbar extends Component
             2 => [
                 "name" => ItemsNavEnum::ACHIEVEMENTS,
                 "title" => "الأعمال والإنجازات",
-                "url" => "#achievements",
+                "url" => route("achievements"),
             ],
             3 => [
                 "name" => ItemsNavEnum::MEDIA_CENTER,
