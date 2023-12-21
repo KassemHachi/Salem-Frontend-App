@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title',"Salem")
+@section('title',"صفحة الرئيسية")
 @use(App\Enums\ItemsNavEnum)
 
 @section('body')
