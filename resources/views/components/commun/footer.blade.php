@@ -75,7 +75,7 @@
                     data-aos-duration="500" />
             </a>
         </div>
-        <div class="flex gap-8">
+        <div class="flex justify-center gap-8">
             <a href="#instagram">
                 <x-icons.instagram class="transition-all duration-200 ease-out fill-white hover:fill-salem-yellow-500"
                     data-aos="fade-up" data-aos-once="true" data-aos-delay="10" data-aos-duration="500" />
