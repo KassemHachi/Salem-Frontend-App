@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'pages.home')->name('home');
 Route::view('/about-salem', 'pages.about')->name('about-salem');
+Route::view('/achievements', 'pages.achievement')->name('achievements');
