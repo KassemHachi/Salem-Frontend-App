@@ -45,7 +45,7 @@
                         بالمملكة العربية السعودية، نشأ وترعرع في قبيلة يام اذ يعد الابن الخامس علي بن سعيد
 
                     </p>
-                    <a href="#"
+                    <a href="{{route('about-salem')}}"
                         class="block text-lg h-10 px-3 py-1.5 mt-5  font-medium transition-all duration-150 ease-linear border-2 rounded-lg cursor-pointer w-fit hover:bg-salem-yellow-500 hover:text-white border-salem-yellow-500 text-salem-yellow-500">
 
                         سالم عن قرب
@@ -70,7 +70,7 @@
                         بالمملكة العربية السعودية، نشأ وترعرع في قبيلة يام اذ يعد الابن الخامس علي بن سعيد
 
                     </p>
-                    <a href="#"
+                    <a href="{{route('about-salem')}}"
                         class="block text-lg h-10 px-3 py-1.5 mt-5  font-medium transition-all duration-150 ease-linear border-2 rounded-lg cursor-pointer w-fit hover:bg-salem-yellow-500 hover:text-white border-salem-yellow-500 text-salem-yellow-500">
 
                         سالم عن قرب
@@ -95,7 +95,7 @@
                         بالمملكة العربية السعودية، نشأ وترعرع في قبيلة يام اذ يعد الابن الخامس علي بن سعيد
 
                     </p>
-                    <a href="#"
+                    <a href="{{route('about-salem')}}"
                         class="block text-lg h-10 px-3 py-1.5 mt-5  font-medium transition-all duration-150 ease-linear border-2 rounded-lg cursor-pointer w-fit hover:bg-salem-yellow-500 hover:text-white border-salem-yellow-500 text-salem-yellow-500">
 
                         سالم عن قرب

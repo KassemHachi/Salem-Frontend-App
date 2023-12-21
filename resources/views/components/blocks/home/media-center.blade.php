@@ -20,7 +20,7 @@
 
                 </a>
 
-                <a href="#"
+                <a href="{{route('media-center')}}"
                     class="px-2 py-2 text-lg font-medium text-white truncate transition-all duration-150 ease-linear border-2 rounded-lg lg:px-3 lg:hidden border-salem-dark-blue-500 text-end w-fit bg-salem-dark-blue-500 hover:bg-salem-dark-blue-600">
 
                     <p class="truncate"> عرض الجميع </p>
@@ -34,7 +34,7 @@
         </h1>
 
         <div class="hidden col-span-1 lg:inline-block ">
-            <a href="#"
+            <a href="{{route('media-center')}}"
                 class="float-left px-3 py-2 text-lg font-medium text-white transition-all duration-150 ease-linear border-2 rounded-lg border-salem-dark-blue-500 text-end w-fit bg-salem-dark-blue-500 hover:bg-salem-dark-blue-600">
 
                 عرض الجميع

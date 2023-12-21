@@ -41,7 +41,7 @@ class Navbar extends Component
             4 => [
                 "name" => ItemsNavEnum::CONTACT_US,
                 "title" => "للتواصل",
-                "url" => "#contact-us",
+                "url" => "/#contact-us",
             ],
         ];
     }
