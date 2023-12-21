@@ -36,7 +36,7 @@ class Navbar extends Component
             3 => [
                 "name" => ItemsNavEnum::MEDIA_CENTER,
                 "title" => "المركز الإعلامي",
-                "url" => "#media-center",
+                "url" => route("media-center"),
             ],
             4 => [
                 "name" => ItemsNavEnum::CONTACT_US,
