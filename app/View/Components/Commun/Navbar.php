@@ -26,7 +26,7 @@ class Navbar extends Component
             1 => [
                 "name" => ItemsNavEnum::SALEM,
                 "title" => "سالم عن قرب",
-                "url" => "#Salem-up-close",
+                "url" => route("about-salem"),
             ],
             2 => [
                 "name" => ItemsNavEnum::ACHIEVEMENTS,
