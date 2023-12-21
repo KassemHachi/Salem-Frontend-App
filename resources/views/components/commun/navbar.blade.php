@@ -223,10 +223,11 @@
                 </div>
             </div> --}}
         </div>
-        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div class="hidden mx-10 lg:flex lg:flex-1 lg:justify-end">
             <a href="#"
                 class="flex items-center gap-2 px-3 py-2 text-lg font-semibold leading-6 transition-all duration-150 ease-linear border-2 rounded-lg group hover:bg-salem-dark-blue-500 hover:text-white border-salem-dark-blue-500 text-salem-dark-blue-500">
-                لتصويت الغرفة التجارية
+                <p class="w-20 truncate xl:w-full"> لتصويت الغرفة التجارية
+                </p>
                 <x-icons.arrow-left class="fill-salem-dark-blue-500 group-hover:fill-white" />
             </a>
         </div>
