@@ -15,7 +15,7 @@
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
             </button>
-            <div x-show="menudropdown"
+            <div x-show="menudropdown" x-transition.duration.300ms
                 class="absolute flex items-start justify-between  inset-0 px-10 py-6 w-[100vw] h-screen bg-white">
 
                 <div class="">
