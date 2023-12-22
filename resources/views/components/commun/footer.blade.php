@@ -16,22 +16,22 @@
             </h3>
             <ul class="grid grid-cols-2 gap-2 text-white lg:grid-cols-4 lg:gap-3" data-aos="fade-up"
                 data-aos-once="true" data-aos-delay="10" data-aos-duration="500">
-                <a href="#">
+                <a href="{{route('home')}}">
                     <li class="text-base">الرئيسية</li>
                 </a>
-                <a href="#">
+                <a href="{{route('about-salem')}}">
                     <li class="text-base">سالم عن قرب</li>
                 </a>
-                <a href="#">
+                <a href="{{route('achievements')}}">
                     <li class="text-base">الأعمال والإنجازات</li>
                 </a>
                 <a href="#">
                     <li class="text-base">البرنامج الإنتخابي</li>
                 </a>
-                <a href="#">
+                <a href="/#contact-us">
                     <li>تواصل معنا</li>
                 </a>
-                <a href="">
+                <a href="{{route('privacy-policy')}}">
                     <li class="text-base">سياسية الخصوصية</li>
                 </a>
                 <a href="#">
