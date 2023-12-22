@@ -21,6 +21,8 @@
         يُرجى التحقق من الرابط المدخل أو المحاولة مرة أخرى في وقت لاحق. في حال استمرار المشكلة، يمكنك الاتصال بفريق
         الدعم الفني للمساعدة. نعتذر عن أي إزعاج قد يسببه هذا الأمر ونشكرك على صبرك وتفهمك.
     </p>
+    <a data-aos-once="true" data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"
+        class="text-base underline text-salem-yellow-500" href="{{route('home')}}">عودة الى الصفحة الرئيسية</a>
 </article>
 
 <x-commun.footer />
