@@ -3,17 +3,20 @@
     <div class="z-[1] w-4/5 ps-6 pb-6 group-hover:hidden transition-all duration-300 ease-in-out">
         <div class="flex items-center gap-2">
             <x-icons.calendar class="w-4 h-4 stroke-white" />
-            <h3 class="text-base text-white ">06 سبتمبر 2023</h3>
+            <h3 class="text-base text-white ">
+                {{$datetime}}
+            </h3>
         </div>
-        <h1 class="text-4xl font-semibold text-white truncate">في اطار تعزيز التواصل و التعاون</h1>
-        <p class="w-full text-xl text-white truncate">زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
-            العامة
-            للعقار
-            من اجل تعزيز</p>
+        <h1 class="text-4xl font-semibold text-white truncate">
+            {{$title}}
+        </h1>
+        <p class="w-full text-xl text-white truncate">
+            {{$description}}
+        </p>
     </div>
     <div class="absolute inset-0 w-full h-full">
         <img class="object-cover w-full h-full transition-all duration-300 ease-in-out scale-110 group-hover:scale-100"
-            src="{{Vite::asset('resources/images/salem-media-center-image-1.jpg')}}" alt="">
+            src="{{$imgSrc}}" alt="{{$imgAlt}}">
     </div>
     <div
         class="absolute inset-0 z-0 transition-all duration-300 ease-in-out bg-gradient-to-t from-salem-dark-blue-500 via-black/40 to-black/20 group-hover:hidden">
