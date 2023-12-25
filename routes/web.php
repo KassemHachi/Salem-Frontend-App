@@ -18,3 +18,4 @@ Route::view('/about-salem', 'pages.about')->name('about-salem');
 Route::view('/achievements', 'pages.achievement')->name('achievements');
 Route::view('/media-center', 'pages.media-center')->name('media-center');
 Route::view('/privacy-policy', 'pages.privacy-policy')->name('privacy-policy');
+Route::view('/dashboard', 'pages.dashboard')->name('dashboard');
