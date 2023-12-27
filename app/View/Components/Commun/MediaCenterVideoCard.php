@@ -8,12 +8,17 @@ use Illuminate\View\Component;
 
 class MediaCenterVideoCard extends Component
 {
+    public $title;
+    public $imgalt;
+    public $imgsrc;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($title, $imgalt, $imgsrc)
     {
-        //
+        $this->title = $title;
+        $this->imgalt = $imgalt;
+        $this->imgsrc = $imgsrc;
     }
 
     /**

@@ -73,9 +73,16 @@
         العامة
         للعقار
         من اجل تعزيز" />
-        <x-commun.media-center-video-card />
-        <x-commun.media-center-video-card />
-        <x-commun.media-center-video-card />
+        <x-commun.media-center-video-card title=" اللقاء التعريفي للبرنامج الإنتخابي"
+            imgsrc="{{Vite::asset('resources/images/salem-picture-2.jpg')}}"
+            imgalt=" في اطار تعزيز التواصل و التعاون" />
+        <x-commun.media-center-video-card title=" اللقاء التعريفي للبرنامج الإنتخابي"
+            imgsrc="{{Vite::asset('resources/images/salem-picture-2.jpg')}}"
+            imgalt=" في اطار تعزيز التواصل و التعاون" />
+        <x-commun.media-center-video-card title=" اللقاء التعريفي للبرنامج الإنتخابي"
+            imgsrc="{{Vite::asset('resources/images/salem-picture-2.jpg')}}"
+            imgalt=" في اطار تعزيز التواصل و التعاون" />
+
     </div>
 
 </section>

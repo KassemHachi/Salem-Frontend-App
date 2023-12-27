@@ -3,13 +3,13 @@
     <div class="z-[1] w-3/4 ps-6 pb-6 group-hover:hidden transition-all duration-300 ease-in-out">
         <h3 class="my-2 px-3 py-1.5 rounded-lg text-lg text-white w-fit bg-white/40">فيديو</h3>
         <h1 class="text-4xl font-semibold text-white truncate">
-            اللقاء التعريفي للبرنامج الإنتخابي
+            {{$title}}
         </h1>
 
     </div>
     <div class="absolute inset-0 w-full h-full">
         <img class="object-cover w-full h-full transition-all duration-300 ease-in-out scale-110 group-hover:scale-100"
-            src="{{Vite::asset('resources/images/salem-picture-2.jpg')}}" alt="">
+            src="{{$imgsrc}}" alt="{{$imgalt}}">
     </div>
     <div
         class="absolute inset-0 z-0 transition-all duration-300 ease-in-out bg-gradient-to-t from-salem-yellow-500 via-black/40 to-black/20 group-hover:hidden">
