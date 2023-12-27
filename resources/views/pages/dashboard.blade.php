@@ -4,12 +4,35 @@
 
 
 <div class="flex h-screen ">
+    <aside class="w-[20vw] bg-salem-dark-blue-500 py-10 flex flex-col items-center">
+        <a class="" href="{{route('home')}}">
+            <x-commun.logo class="h-16 fill-white w-fit"></x-commun.logo>
+        </a>
+        <ul class="flex flex-col justify-start w-full py-28">
+            <li class="flex items-center gap-2 px-10 py-5 text-white cursor-pointer hover:bg-white/25">
 
+                <x-jam-home class="w-5 h-5" />
+                صفحة الرئيسية
+            </li>
+            <li class="flex items-center gap-2 px-10 py-5 text-white cursor-pointer hover:bg-white/25">
+                <x-jam-dashboard class="w-5 h-5" />
+                نظرة عامة
+            </li>
+            <li class="flex items-center gap-2 px-10 py-5 text-white cursor-pointer hover:bg-white/25">
+                <x-tabler-playlist-add class="w-5 h-5" />
+                انشاء مقال
+            </li>
+            <li class="flex items-center gap-2 px-10 py-5 text-white cursor-pointer hover:bg-white/25">
+                <x-go-gear-16 class="w-5 h-5" />
+                الإعدادت
+            </li>
+
+
+        </ul>
+    </aside>
     <main class="w-full bg-gray-50">
-        <div style="" class="flex items-center justify-between h-24 px-20 py-2 bg-white shadow">
-            <a href="{{route('home')}}">
-                <x-commun.logo class="h-10 fill-salem-yellow-500 w-fit"></x-commun.logo>
-            </a>
+        <div style="" class="flex items-center justify-end h-24 px-20 py-2 bg-white shadow">
+
             <div class="hidden gap-2 md:ml-4 md:flex md:flex-shrink-0 md:items-center">
                 <button type="button" class="relative p-1 bg-white rounded-full text-salem-dark-blue-500 ">
                     <span class="absolute -inset-1.5"></span>
