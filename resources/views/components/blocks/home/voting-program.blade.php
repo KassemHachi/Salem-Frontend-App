@@ -11,9 +11,10 @@
         <x-icons.palatte-element class="h-80 w-fit" />
     </div>
     <div class="w-full z-[1]  px-20">
-        <h1 data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500"
-            class="text-[45px] font-semibold text-start text-salem-dark-blue-500">
-            البرنامج الإنتخابي </h1>
+        <x-ui.heading.two data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500"
+            class="my-20 text-start lg:mt-0 ">
+            البرنامج الإنتخابي
+        </x-ui.heading.two>
 
         <div class="grid grid-cols-1 mt-20 lg:grid-cols-3 gap-y-16 gap-x-6 mb-[4rem]">
 

@@ -1,12 +1,28 @@
 <section id="tweets" class="p-10 lg:p-20 bg-[#fbf7f3]">
-    <h1 class="my-20 text-[45px] font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
-        data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
+    <x-ui.heading.two data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500"
+        class="my-20 text-center lg:mt-0">
         آخر التغريدات
-    </h1>
+    </x-ui.heading.two>
     <div class="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-4">
-        <x-commun.tweets-card data-aos-delay="0" data-aos-duration="200" />
-        <x-commun.tweets-card data-aos-delay="30" data-aos-duration="400" />
-        <x-commun.tweets-card data-aos-delay="60" data-aos-duration="800" />
-        <x-commun.tweets-card data-aos-delay="90" data-aos-duration="1000" />
+        <x-commun.tweets-card data-aos-delay="0" data-aos-duration="200" tweet='
+        استقبل رئيس مجلس الادراة رجل الأعمال / سالم بن علي آل بغية العجمي. واطلع العجمي " على
+        منجزات الجمعية ومسيرتها في خدمة الأسر الأشد حاجة " ومطلعاًً على اهم مشاريع الجمعية وخاصة "مشروع
+        تقديم الدعم القانوني والاستشاري وحوكمة مشاريع اللجنة النسائية للتنمية المجتمعية…
+        ' :likes='520' :retweets='113' />
+        <x-commun.tweets-card data-aos-delay="0" data-aos-duration="200" tweet='
+        استقبل رئيس مجلس الادراة رجل الأعمال / سالم بن علي آل بغية العجمي. واطلع العجمي " على
+        منجزات الجمعية ومسيرتها في خدمة الأسر الأشد حاجة " ومطلعاًً على اهم مشاريع الجمعية وخاصة "مشروع
+        تقديم الدعم القانوني والاستشاري وحوكمة مشاريع اللجنة النسائية للتنمية المجتمعية…
+        ' :likes='520' :retweets='113' />
+        <x-commun.tweets-card data-aos-delay="0" data-aos-duration="200" tweet='
+        استقبل رئيس مجلس الادراة رجل الأعمال / سالم بن علي آل بغية العجمي. واطلع العجمي " على
+        منجزات الجمعية ومسيرتها في خدمة الأسر الأشد حاجة " ومطلعاًً على اهم مشاريع الجمعية وخاصة "مشروع
+        تقديم الدعم القانوني والاستشاري وحوكمة مشاريع اللجنة النسائية للتنمية المجتمعية…
+        ' :likes='520' :retweets='113' />
+        <x-commun.tweets-card data-aos-delay="0" data-aos-duration="200" tweet='
+        استقبل رئيس مجلس الادراة رجل الأعمال / سالم بن علي آل بغية العجمي. واطلع العجمي " على
+        منجزات الجمعية ومسيرتها في خدمة الأسر الأشد حاجة " ومطلعاًً على اهم مشاريع الجمعية وخاصة "مشروع
+        تقديم الدعم القانوني والاستشاري وحوكمة مشاريع اللجنة النسائية للتنمية المجتمعية…
+        ' :likes='520' :retweets='113' />
     </div>
 </section>

@@ -28,10 +28,9 @@
             </div>
         </div>
 
-        <h1 class="mt-10 text-5xl font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
-            data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
+        <x-ui.heading.one data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
             المركز الإعلامي
-        </h1>
+        </x-ui.heading.one>
 
         <div class="hidden col-span-1 lg:inline-block ">
             <a href="{{route('media-center')}}"

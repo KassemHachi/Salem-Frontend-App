@@ -1,8 +1,8 @@
 <section id="testimonies" class="py-20 bg-[#fbf7f3]">
-    <h1 class="my-20 text-[45px] font-semibold text-center lg:mt-0 text-salem-dark-blue-500 " data-aos="fade-up"
-        data-aos-once="true" data-aos-delay="0" data-aos-duration="500">
+    <x-ui.heading.two data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500"
+        class="my-20 text-center lg:mt-0 ">
         ماذا قالو عن سالم
-    </h1>
+    </x-ui.heading.two>
     <div class="relative w-full ">
         <x-ui.carousel.container>
             <div

@@ -14,24 +14,24 @@
     </div>
 
     <div class="h-full px-4 bg-white">
-        <h2 class="text-[25px] font-semibold text-salem-dark-blue-500">سالم بن بغيّه العجمي </h2>
+        <x-ui.heading.six>
+            سالم بن بغيّه العجمي
+        </x-ui.heading.six>
         <div class="flex items-center justify-end gap-1" style="direction: ltr">
             <x-icons.user-square />
             <a class="text-base text-salem-yellow-500" href="#twtter_user">{{"@alajmi_info"}}</a>
         </div>
         <p style="" class="text-base text-salem-dark-blue-300 line-clamp-4">
-            استقبل رئيس مجلس الادراة رجل الأعمال / سالم بن علي آل بغية العجمي. واطلع العجمي " على
-            منجزات الجمعية ومسيرتها في خدمة الأسر الأشد حاجة " ومطلعاًً على اهم مشاريع الجمعية وخاصة "مشروع
-            تقديم الدعم القانوني والاستشاري وحوكمة مشاريع اللجنة النسائية للتنمية المجتمعية…
+            {{$tweet}}
         </p>
         <div class="flex gap-3 mt-4 flex-start">
             <div class="flex items-center gap-1">
                 <x-icons.heart />
-                <span class="text-base">522</span>
+                <span class="text-base">{{$likes}}</span>
             </div>
             <div class="flex items-center gap-1">
                 <x-icons.retweet />
-                <span class="text-base">113</span>
+                <span class="text-base">{{$retweets}}</span>
             </div>
         </div>
 

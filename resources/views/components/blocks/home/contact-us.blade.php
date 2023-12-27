@@ -53,7 +53,7 @@
                     </div>
                     <div>
                         <button type="submit"
-                            class="flex items-center gap-2 px-3 py-2 text-lg font-semibold leading-6 text-white transition-all duration-150 ease-linear border-2 rounded-lg group bg-salem-dark-blue-500 hover:bg-salem-yellow-500 ">
+                            class="flex items-center gap-2 px-3 py-2 text-lg font-semibold leading-6 text-white transition-all duration-150 ease-linear border-2 rounded-lg group !bg-salem-dark-blue-500 hover:!bg-salem-yellow-500 ">
                             إرسال
                         </button>
                     </div>

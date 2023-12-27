@@ -1,12 +1,14 @@
 <section id="salem-for-humanity" class="relative px-5 overflow-hidden lg:px-20 lg:h-screen">
     <div class="w-full h-full py-16 lg:pt-20 lg:w-1/2 ">
-        <h1 class="text-[45px] font-semibold text-white text-start" data-aos-once="true" data-aos="fade-up"
-            data-aos-delay="0" data-aos-duration="500">
-            سالم للإنسانية</h1>
-        <h2 class="mt-2 text-[25px] font-semibold text-white" data-aos-once="true" data-aos="fade-up"
-            data-aos-delay="10" data-aos-duration="600">
+        <x-ui.heading.two data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="500"
+            class="text-white ">
+            ماذا قالو عن سالم
+        </x-ui.heading.two>
+        <x-ui.heading.six class="mt-2 text-white" data-aos="fade-up" data-aos-once="true" data-aos-delay="0"
+            data-aos-duration="500">
             العنوان
-        </h2>
+        </x-ui.heading.six>
+
         <p class="mt-2 text-2xl font-semibold text-white" data-aos-once="true" data-aos="fade-up" data-aos-delay="10"
             data-aos-duration="700">
             رجل الاعمال الاستاذ / سالم العجمي العديد من المساهمات المجتمعية و الانسانية من خلال دعمه المستمر للمناشط
