@@ -4,7 +4,7 @@
 
 
 <div class="flex h-screen ">
-    <aside class="w-[20vw] bg-salem-dark-blue-500 py-10 flex flex-col items-center">
+    <aside class="hidden lg:flex w-[20vw] bg-salem-dark-blue-500 py-10 flex-col items-center">
         <a class="" href="{{route('home')}}">
             <x-commun.logo class="h-16 fill-white w-fit"></x-commun.logo>
         </a>
@@ -30,7 +30,7 @@
 
         </ul>
     </aside>
-    <main class="w-full bg-gray-50">
+    <main class="w-full pb-10 overflow-y-auto bg-gray-50">
         <div style="" class="flex items-center justify-end h-24 px-20 py-2 bg-white shadow">
 
             <div class="hidden gap-2 md:ml-4 md:flex md:flex-shrink-0 md:items-center">
@@ -276,6 +276,52 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="px-4 mt-10 lg:px-20">
+            <form action="">
+                <div class="w-full">
+                    <label for="title" class="text-lg leading-8">
+                        عنوان المقال
+                    </label>
+                    <input type="text" name="title" id="title" autocomplete="title" required
+                        class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
+                        placeholder="">
+                </div>
+                <div class="w-full mt-5">
+                    <label for="list" class="block text-lg leading-8 text-gray-900">
+                        قائمة
+                    </label>
+                    <select id="list" name="list"
+                        class="block w-full py-3 pr-8 text-gray-900 border-0 rounded-md ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-salem-dark-blue-500 sm:text-sm sm:leading-6">
+                        <option>
+                            عنصر 1
+                        </option>
+                        <option>
+                            عنصر 2
+                        </option>
+                        <option>
+                            عنصر 3
+                        </option>
+                        <option>
+                            عنصر 4
+                        </option>
+                    </select>
+                </div>
+                <div class="w-full mt-5">
+                    <label for="message" class="text-lg leading-8">
+                        محتوى المقال
+                    </label>
+                    <textarea id="message" name="message" rows="4"
+                        class="block w-full px-4 py-3 placeholder-gray-500 border-gray-300 rounded-md shadow-sm focus:border-salem-dark-blue-500 focus:ring-salem-dark-blue-500"
+                        placeholder=""></textarea>
+                </div>
+                <div class="w-full mt-5">
+                    <button type="button"
+                        class="block px-3 py-2 text-lg font-medium text-center text-white rounded-md shadow-sm !bg-salem-dark-blue-500 hover:!bg-salem-yellow-500 duration-200 transition-all ease-in-out">
+                        انشاء مقال
+                    </button>
+                </div>
+            </form>
         </div>
     </main>
 </div>
