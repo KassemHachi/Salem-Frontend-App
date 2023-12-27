@@ -31,9 +31,80 @@
         </ul>
     </aside>
     <main class="w-full pb-10 overflow-y-auto bg-gray-50">
-        <div style="" class="flex items-center justify-end h-24 px-20 py-2 bg-white shadow">
+        <div style="" class="flex items-center justify-between h-24 px-10 py-2 bg-white shadow lg:px-20 lg:justify-end">
+            <x-commun.logo class="h-10 lg:hidden fill-salem-yellow-500 w-fit"></x-commun.logo>
+            <div x-data="{menudropdowndmin:false}" class="flex lg:hidden">
+                <button @click="menudropdowndmin = !menudropdowndmin" type="button"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+                <div x-show="menudropdowndmin" x-transition.duration.300ms
+                    class="absolute flex items-start justify-between  inset-0 px-10 py-6 w-[100vw] h-screen bg-white">
 
-            <div class="hidden gap-2 md:ml-4 md:flex md:flex-shrink-0 md:items-center">
+                    <div class="w-full">
+                        <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
+
+
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-jam-home class="w-5 h-5" />
+                            الصفحة الرئيسية
+                        </a>
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-jam-dashboard class="w-5 h-5" />
+                            نظرة عامة
+
+                        </a>
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-tabler-playlist-add class="w-5 h-5" />
+                            انشاء مقال
+                        </a>
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-go-gear-16 class="w-5 h-5" />
+                            الإعدادت
+
+                        </a>
+                        <hr class="my-2">
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-feathericon-user />
+                            حسابي
+
+                        </a>
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-go-gear-16 class="w-5 h-5" />
+                            إعدادات الحساب
+
+                        </a>
+                        <a href="#"
+                            class="flex w-full gap-2 py-2 pl-3 pr-4 text-lg font-normal text-salem-dark-blue-500 ">
+                            <x-tabler-logout />
+                            خروج
+
+                        </a>
+
+
+                    </div>
+
+                    <button class="p-3" @click="menudropdowndmin=false">
+                        <svg class="w-6 h-6 " fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+
+                </div>
+            </div>
+            <div class="hidden gap-2 md:ml-4 lg:flex md:flex-shrink-0 md:items-center">
                 <button type="button" class="relative p-1 bg-white rounded-full text-salem-dark-blue-500 ">
                     <span class="absolute -inset-1.5"></span>
                     <span class="sr-only">View notifications</span>
@@ -73,19 +144,28 @@
                         role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                         <!-- Active: "bg-gray-100", Not Active: "" -->
                         <a href="#"
-                            class="block px-4 py-2 text-base text-gray-700 transition-all duration-150 ease-linear hover:bg-gray-100"
-                            role="menuitem" tabindex="-1" id="user-menu-item-0">حسابي</a>
+                            class="flex gap-2 px-4 py-2 text-base transition-all duration-150 ease-linear text-salem-dark-blue-500 hover:bg-gray-100"
+                            role="menuitem" tabindex="-1" id="user-menu-item-0">
+                            <x-feathericon-user />
+                            حسابي
+                        </a>
                         <a href="#"
-                            class="block px-4 py-2 text-base text-gray-700 transition-all duration-150 ease-linear hover:bg-gray-100"
-                            role="menuitem" tabindex="-1" id="user-menu-item-1">الإعدادات</a>
+                            class="flex gap-2 px-4 py-2 text-base transition-all duration-150 ease-linear text-salem-dark-blue-500 hover:bg-gray-100"
+                            role="menuitem" tabindex="-1" id="user-menu-item-1">
+                            <x-go-gear-16 class="w-5 h-5" />
+                            إعدادات الحساب
+                        </a>
                         <a href="#"
-                            class="block px-4 py-2 text-base text-gray-700 transition-all duration-150 ease-linear border-t hover:bg-gray-100"
-                            role="menuitem" tabindex="-1" id="user-menu-item-2">خروج</a>
+                            class="flex gap-2 px-4 py-2 text-base transition-all duration-150 ease-linear border-t text-salem-dark-blue-500 hover:bg-gray-100"
+                            role="menuitem" tabindex="-1" id="user-menu-item-2">
+                            <x-tabler-logout />
+                            خروج
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="grid grid-cols-1 gap-5 px-20 mt-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 gap-5 px-10 mt-10 lg:px-20 sm:grid-cols-2 lg:grid-cols-3">
             <!-- Card -->
             <div class="overflow-hidden bg-white rounded-lg shadow">
                 <div class="p-5">
@@ -151,13 +231,13 @@
             <!-- More items... -->
         </div>
 
-        <div class="px-4 mt-10 sm:px-6 lg:px-20">
-            <div class="sm:flex sm:items-center">
-                <div class="sm:flex-auto">
+        <div class="px-10 mt-10 sm:px-6 lg:px-20">
+            <div class="flex items-center justify-between">
+                <div class="">
                     <h1 class="text-[45px] font-semibold leading-6 text-salem-dark-blue-500">المقالات</h1>
 
                 </div>
-                <div class="mt-4 sm:mt-0 sm:flex-none">
+                <div class="mt-4 sm:mt-0">
                     <button type="button"
                         class="block px-3 py-2 text-lg font-medium text-center text-white rounded-md shadow-sm !bg-salem-dark-blue-500 hover:!bg-salem-yellow-500 duration-200 transition-all ease-in-out">
                         انشاء مقال
@@ -292,7 +372,7 @@
                         قائمة
                     </label>
                     <select id="list" name="list"
-                        class="block w-full py-3 pr-8 text-gray-900 border-0 rounded-md ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-salem-dark-blue-500 sm:text-sm sm:leading-6">
+                        class="block w-full py-3 pr-8 text-base font-medium border-0 rounded-md text-salem-dark-blue-500 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-salem-dark-blue-500 sm:text-sm sm:leading-6">
                         <option>
                             عنصر 1
                         </option>
