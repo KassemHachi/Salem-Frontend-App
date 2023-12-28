@@ -2,8 +2,7 @@
 
     <x-ui.slider.container :slides="3">
 
-        <x-ui.slider.item data-te-carousel-active
-            backgroundimage="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}">
+        <x-ui.slider.item data-te-carousel-active backgroundimage="{{asset('images/salem-hero-image-2.jpg')}}">
 
             <x-ui.heading.one class="font-semibold text-start text-salem-yellow-500">سالم بن علي بن بغيّه العجمي
             </x-ui.heading.one>
@@ -26,7 +25,7 @@
 
         </x-ui.slider.item>
 
-        <x-ui.slider.item backgroundimage="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}">
+        <x-ui.slider.item backgroundimage="{{asset('images/salem-hero-image-2.jpg')}}">
 
 
             <x-ui.heading.one class="font-semibold text-start text-salem-yellow-500">سالم بن علي بن بغيّه العجمي
@@ -45,7 +44,7 @@
 
         </x-ui.slider.item>
 
-        <x-ui.slider.item backgroundimage="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}">
+        <x-ui.slider.item backgroundimage="{{asset('images/salem-hero-image-2.jpg')}}">
 
 
             <x-ui.heading.one class="font-semibold text-start text-salem-yellow-500">سالم بن علي بن بغيّه العجمي

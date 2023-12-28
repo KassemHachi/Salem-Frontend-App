@@ -13,14 +13,14 @@
                 العربى،
                 حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
                 يولدها
-                " imgsrc="{{Vite::asset('resources/images/image.png')}}" />
+                " imgsrc="{{asset('images/image.png')}}" />
 
                 <x-ui.carousel.item description="
             هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
             العربى،
             حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
             يولدها
-            " imgsrc="{{Vite::asset('resources/images/image.png')}}" />
+            " imgsrc="{{asset('images/image.png')}}" />
 
 
                 <x-ui.carousel.item description="
@@ -28,7 +28,7 @@
             العربى،
             حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى
             يولدها
-            " imgsrc="{{Vite::asset('resources/images/image.png')}}" />
+            " imgsrc="{{asset('images/image.png')}}" />
             </div>
             <x-ui.carousel.previous-button />
             <x-ui.carousel.next-button />

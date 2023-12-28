@@ -4,8 +4,7 @@
 
 @section('body')
 <x-commun.navbar :activepage="ItemsNavEnum::SALEM" />
-<x-blocks.simple-page.hero title="سياسة الخصوصية"
-    imageurl="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}" />
+<x-blocks.simple-page.hero title="سياسة الخصوصية" imageurl="{{asset('images/salem-hero-image-2.jpg')}}" />
 
 <article class="min-h-fit lg:min-h-screen px-10 lg:px-20 py-[3.75rem]">
     <h3 class="text-[25px] font-semibold text-salem-dark-blue-500" data-aos-once="true" data-aos="fade-up"

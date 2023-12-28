@@ -5,8 +5,7 @@
 @section('body')
 <x-commun.navbar :activepage="ItemsNavEnum::ACHIEVEMENTS" />
 
-<x-blocks.simple-page.hero title="الأعمال والإنجازات"
-    imageurl="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}" />
+<x-blocks.simple-page.hero title="الأعمال والإنجازات" imageurl="{{asset('images/salem-hero-image-2.jpg')}}" />
 
 <article class="min-h-fit lg:min-h-screen px-10 lg:px-20 py-[3.75rem]">
 

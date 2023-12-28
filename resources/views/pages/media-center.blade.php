@@ -4,7 +4,7 @@
 
 @section('body')
 <x-commun.navbar :activepage="ItemsNavEnum::MEDIA_CENTER" />
-<x-blocks.simple-page.hero title="مركز الإعلام" imageurl="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}" />
+<x-blocks.simple-page.hero title="مركز الإعلام" imageurl="{{asset('images/salem-hero-image-2.jpg')}}" />
 
 <main class="min-h-fit lg:min-h-screen px-10 lg:px-20 py-[3.75rem]">
     <div class="grid px-3 mb-10 md:px-10 lg:px-20 md:grid-cols-1 lg:grid-cols-3">
@@ -34,44 +34,47 @@
 
     </div>
     <div class="grid grid-cols-1 gap-5 px-10 lg:gap-10 lg:px-20 md:grid-cols-2 lg:grid-cols-3 ">
-        <x-commun.media-center-card imgsrc="{{Vite::asset('resources/images/salem-hero-image.jpg')}}"
+        <x-commun.media-center-card imgsrc="{{asset('images/salem-hero-image.jpg')}}"
             imgalt=" في اطار تعزيز التواصل و التعاون" title=" في اطار تعزيز التواصل و التعاون" datetime="06 سبتمبر 2023"
             description=" زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
         العامة
         للعقار
         من اجل تعزيز" />
 
-        <x-commun.media-center-card imgsrc="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}"
+        <x-commun.media-center-card imgsrc="{{asset('images/salem-hero-image-2.jpg')}}"
             imgalt=" في اطار تعزيز التواصل و التعاون" title=" في اطار تعزيز التواصل و التعاون" datetime="06 سبتمبر 2023"
             description=" زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
         العامة
         للعقار
         من اجل تعزيز" />
 
-        <x-commun.media-center-card imgsrc="{{Vite::asset('resources/images/salem-picture-2.jpg')}}"
+        <x-commun.media-center-card imgsrc="{{asset('images/salem-picture-2.jpg')}}"
             imgalt=" في اطار تعزيز التواصل و التعاون" title=" في اطار تعزيز التواصل و التعاون" datetime="06 سبتمبر 2023"
             description=" زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
         العامة
         للعقار
         من اجل تعزيز" />
 
-        <x-commun.media-center-card imgsrc="{{Vite::asset('resources/images/salem-hero-image.jpg')}}"
+        <x-commun.media-center-card imgsrc="{{asset('images/salem-hero-image.jpg')}}"
             imgalt=" في اطار تعزيز التواصل و التعاون" title=" في اطار تعزيز التواصل و التعاون" datetime="06 سبتمبر 2023"
             description=" زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
         العامة
         للعقار
         من اجل تعزيز" />
 
-        <x-commun.media-center-card imgsrc="{{Vite::asset('resources/images/salem-hero-image.jpg')}}"
+        <x-commun.media-center-card imgsrc="{{asset('images/salem-hero-image.jpg')}}"
             imgalt=" في اطار تعزيز التواصل و التعاون" title=" في اطار تعزيز التواصل و التعاون" datetime="06 سبتمبر 2023"
             description=" زيارة الدكتور سالم بن علي آل بغية العجمي الى الهيئة
         العامة
         للعقار
         من اجل تعزيز" />
+        <x-commun.media-center-video-card title=" اللقاء التعريفي للبرنامج الإنتخابي"
+            imgsrc="{{asset('images/salem-picture-2.jpg')}}" imgalt=" في اطار تعزيز التواصل و التعاون" />
+        <x-commun.media-center-video-card title=" اللقاء التعريفي للبرنامج الإنتخابي"
+            imgsrc="{{asset('images/salem-picture-2.jpg')}}" imgalt=" في اطار تعزيز التواصل و التعاون" />
+        <x-commun.media-center-video-card title=" اللقاء التعريفي للبرنامج الإنتخابي"
+            imgsrc="{{asset('images/salem-picture-2.jpg')}}" imgalt=" في اطار تعزيز التواصل و التعاون" />
 
-        <x-commun.media-center-video-card />
-        <x-commun.media-center-video-card />
-        <x-commun.media-center-video-card />
     </div>
 </main>
 

@@ -19,7 +19,7 @@
             المزيد
         </a>
     </div>
-    <img src="{{Vite::asset('resources/images/salem-for-humanity-image.jpg')}}"
+    <img src="{{asset('images/salem-for-humanity-image.jpg')}}"
         class="absolute h-full w-full object-cover inset-0 z-[-2]" alt="">
     <div
         class="absolute inset-0 z-[-1] bg-gradient-to-t from-salem-yellow-500/70 via-salem-yellow-500/0 to-salem-yellow-500/0">

@@ -8,8 +8,8 @@
     <div class="relative h-40">
         <div class="absolute inset-0 z-10 bg-gradient-to-t from-white to-salem-yellow-500/20">
         </div>
-        <img class="object-cover object-top w-full h-40 "
-            src="{{Vite::asset('resources/images/salem-profile-picture-twitter.jpg')}}" alt="سالم العجيمي">
+        <img class="object-cover object-top w-full h-40 " src="{{asset('images/salem-profile-picture-twitter.jpg')}}"
+            alt="سالم العجيمي">
 
     </div>
 

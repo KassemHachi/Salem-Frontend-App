@@ -4,8 +4,7 @@
 
 @section('body')
 <x-commun.navbar :activepage="ItemsNavEnum::SALEM" />
-<x-blocks.simple-page.hero title="سالم بن علي بن بغيّه العجمي"
-    imageurl="{{Vite::asset('resources/images/salem-hero-image-2.jpg')}}" />
+<x-blocks.simple-page.hero title="سالم بن علي بن بغيّه العجمي" imageurl="{{asset('images/salem-hero-image-2.jpg')}}" />
 
 <article class="min-h-fit lg:min-h-screen px-10 lg:px-20 py-[3.75rem]">
 
